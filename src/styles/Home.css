@@ -1,0 +1,22 @@
+.home-body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.home-text{
+display: flex;
+justify-content: center;
+position: relative;
+bottom: 180px;
+font-size: 48px;
+color: #FFFFFF;
+}
+.home-image{
+border-radius: 25px;
+}
+
+
+
+

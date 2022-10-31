@@ -1,0 +1,40 @@
+.kasa-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 140px;
+margin-bottom: 40px;
+margin-top: 20px;
+}
+
+.kasa-nav{
+display: flex;
+gap: 55px;
+margin-right: 140px;
+
+}
+
+
+.kasa-accueil{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+
+
+
+
+text-decoration-line: underline;
+
+color: #FF6060;
+
+}
+
+.kasa-propos{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF6060;  
+}
+
