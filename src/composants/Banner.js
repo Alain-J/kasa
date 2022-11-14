@@ -1,16 +1,14 @@
 import logo from '../asset/logo.png'
 import '../styles/Banner.css'
+import { NavLink } from "react-router-dom";
 
 function Banner() {
     return (
         <div className='kasa-header'>
-            <div className='kasa-logo'>
-                <img src={logo} alt='Logo de Kasa' />
-            </div>  
-
+                <img className='kasa-logo' src={logo} alt='Logo de Kasa' /> 
             <div className='kasa-nav'>
-                <a href='*' className='kasa-accueil'>accueil</a>
-                <a href='*' className='kasa-propos'>A propos</a>
+                <NavLink to='/' className='kasa-accueil'>Accueil</NavLink>
+                <NavLink to="a-propos"  className='kasa-propos'>A propos</NavLink>
             </div> 
         </div>
    
