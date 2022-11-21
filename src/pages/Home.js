@@ -12,7 +12,7 @@ const Home = () => {
       <div className='section1'> 
           <h2 className='home-text'>Chez vous, partout et ailleurs</h2>
       </div>
-
+      
 
       <div className='background'>
         <div className='logements-home'>
