@@ -6,12 +6,11 @@ a{
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin: 40px 100px;
-width: 93.5%;
+margin: 40px 100px 0;
 }
 
 .kasa-logo{
-    width: 30em;
+    width: 210px;
 }
 
 .kasa-nav{
@@ -22,14 +21,14 @@ justify-content: space-between;
 
 .kasa-accueil{
 font-family: 'Montserrat';
-font-size: 45px;
+font-size: 24px;
 margin: auto 57px;
 color: #FF6060;
 }
 
 .kasa-propos{
     font-family: 'Montserrat';
-    font-size: 45px;
+    font-size: 24px;
     color: #FF6060;  
 }
 

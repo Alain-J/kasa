@@ -1,11 +1,11 @@
 import React from 'react';
-import Banner from '../composants/Banner';
+import Header from '../composants/Header';
 import Footer from '../composants/Footer';
 
 function Layout({children}) {
   return (
     <>
-        <Banner />
+        <Header />
         <main>{children}</main>
         <Footer />
     </>
