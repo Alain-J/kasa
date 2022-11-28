@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import fleche from "../asset/fleche.png";
+import FlecheDroite from "../asset/FlecheDroite.png";
 import FlecheGauche from "../asset/FlecheGauche.png";
 import "../styles/Carrousel.css"
 
@@ -39,7 +39,7 @@ function Carrousel({images}) {
                 })
             }
             {
-                nombreImg > 1 && <img className="fleche fleche-droite" src={fleche} alt="Contenu suivant" onClick={imgSuivante}/>
+                nombreImg > 1 && <img className="fleche fleche-droite" src={FlecheDroite} alt="Contenu suivant" onClick={imgSuivante}/>
             }
             <div className="compteur">
                 <p className="compteur-p">{imgAfficher + 1} / {images.length}</p>
