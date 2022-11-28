@@ -6,7 +6,6 @@ import Erreur from '../pages/Erreur'
 import Logement from '../pages/Logement';
 import APropos from '../pages/APropos';
 
-
 function RoutesPath() {
   return (
         <BrowserRouter>

@@ -1,7 +1,7 @@
 .dropdown {
   border-radius: 5px;
-  margin-bottom: 35px;
   text-align: left;
+  margin-top: 31px;
 }
 
 .header-dropdown {
@@ -19,6 +19,7 @@
   height: 50px;
   line-height: 50px;
   margin: 5px 10px;
+  font-size: 24px;
 }
 
 .fleche-dropdown {
@@ -37,8 +38,19 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   color: #ff6060;
-  height: 75%;
-  margin-top: -10px;
   min-height: 100px;
   padding: 25px 10px 10px 10px;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 376px) {
+.description-dropdown{
+  padding: 17px 56px 0 22px;
+  font-size: 12px;
+}
+
+.titre-dropdown{
+  font-size: 13px;
+}
+  
 }

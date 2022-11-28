@@ -42,7 +42,7 @@ function Logement() {
             {
                ficheLogement ? (
                     <div className="Fiche">
-                        <Carrousel images={ficheLogement?.pictures}/>
+                        <Carrousel images={ficheLogement.pictures}/>
                         <div className="logements-propietaire">
                             <div className="information-logements">
                                 <span className="titre-logement">{ficheLogement.title}</span>

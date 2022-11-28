@@ -54,7 +54,7 @@ color: #FFFFFF;
 @media screen and (max-width: 376px) {
     .carrousel {
         height: 255px;
-        margin: auto auto 15px auto;
+        margin-bottom: 15px;
     }
 
     .fleche {
@@ -70,5 +70,6 @@ color: #FFFFFF;
 
     .carrousel-img {
         height: 255px;
+        margin: 0 0 15px 0;
     }
 }

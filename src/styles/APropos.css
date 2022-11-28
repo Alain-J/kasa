@@ -1,5 +1,29 @@
 .APropos{
-    font-size: 60px;
-    margin: 304px 270px 418px 208px;
+    margin: 50px 100px 100px;
 }
 
+.dropdown-propos{
+    margin: 31px 209px 0 208px;
+}
+
+.dropdown-titre{
+    margin: 31px;
+}
+
+@media screen and (max-width: 376px){
+    .APropos{
+        margin: 17px 20px 168px;
+    }
+
+    .dropdown-propos{
+        margin: 0;
+    }
+
+    .APropos .banner-home{
+        height: 223px;
+    }
+
+    .APropos .dropdown{
+        margin-top: 19px;
+    }
+}
