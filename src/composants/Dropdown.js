@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Dropdown.css";
-import fleche from "../asset/Fleche.png";
+import Fleche from "../asset/Fleche.png";
 
 
 function Dropdown({titre, description}) {
@@ -12,7 +12,7 @@ function Dropdown({titre, description}) {
             <div className="header-dropdown">
                 <div className="titre-dropdown">{titre}</div>
                 <a className={`fleche-dropdown ${ouvert}`} href={`#dropdown-${titre}`} onClick={() => setOuvert(!ouvert)}>
-                    <img src={fleche} alt="Ouvrir cette liste"/>
+                    <img src={Fleche} alt="Ici se trouve la fleche qui permet d'ouvrir et de fermer "/>
                 </a>
             </div>
             {

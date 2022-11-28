@@ -34,7 +34,7 @@ function Carrousel({images}) {
             {
                 images.map((image, index) => {
                     return(
-                        <img key={index} className={index === imgAfficher ? 'carrousel-img actif' : 'carrousel-img'} src={image} alt="Logement"/>
+                        <img key={index} className={index === imgAfficher ? 'carrousel-img actif' : 'carrousel-img'} src={image} alt="Ici ce trouve les photos de l'appartement"/>
                     )
                 })
             }

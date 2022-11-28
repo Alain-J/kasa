@@ -54,7 +54,7 @@ function Logement() {
                             <div className="proprietaire-note">
                                 <div className="information-propietaire">
                                     <span className="nom-proprietaire">{ficheLogement.host.name}</span>
-                                    <img className="photo-propietaire" src={ficheLogement.host.picture} alt="Propriétaire"/>
+                                    <img className="photo-propietaire" src={ficheLogement.host.picture} alt="Ici ce trouve l'img du propietaire"/>
                                 </div>
                                 <div className="note">
                                     {noteLogement}

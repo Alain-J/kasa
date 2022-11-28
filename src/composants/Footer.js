@@ -7,7 +7,7 @@ const Footer = () => {
    <footer className='footer'>
         <p className='footer-text'>© 2020 Kasa. All rights reserved</p>
         <div className='footer-img'>
-            <img src={logoFooter} alt="logo bas de page" />
+            <img src={logoFooter} alt="Ici ce trouve le logo de kasa" />
         </div>
    </footer>
   )
