@@ -32,7 +32,7 @@
   
 }
 
-@media (min-width: 320px) and (max-width: 426px){
+@media screen and (max-width: 1000px){
     .banner-home{
       height: 111px;
     }
@@ -55,7 +55,3 @@
 
 }
 
-@media (min-width: 426px) and (max-width: 1024px) {
-
-  
-}

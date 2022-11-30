@@ -10,7 +10,7 @@
     margin: 31px;
 }
 
-@media (min-width: 320px) and (max-width: 426px){
+@media screen and (max-width: 1000px){
     .APropos{
         margin: 17px 20px 168px;
     }
