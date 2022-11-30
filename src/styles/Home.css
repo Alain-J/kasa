@@ -6,11 +6,18 @@ margin: 63px 100px;
 }
 
 
-@media screen and (max-width: 376px){
+@media (min-width: 320px) and (max-width: 426px){
     .home-body{
         margin: 20px 20px;
     }
 
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+
+    .home-body{
+        margin: 50px 25px;
+    }
 }
 
 

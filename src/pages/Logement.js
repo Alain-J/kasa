@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import ListeLogements from "../data.json";
 import Dropdown from "../composants/Dropdown";
 import Erreur from "../pages/Erreur";
-import "../styles/logement.css";
+import "../styles/Logement.css";
 import Carrousel from "../composants/Carrousel";
 import Etoile from "../asset/Etoile.png";
 import EtoileVide from "../asset/EtoileVide.png";

@@ -32,7 +32,7 @@ color: #FF6060;
     color: #FF6060;  
 }
 
-@media screen and (max-width: 376px)
+@media (min-width: 320px) and (max-width: 426px)
 {
 .kasa-header{
     margin: 20px 20px 0 20px;
@@ -50,6 +50,28 @@ color: #FF6060;
 
     .kasa-propos{
         font-size: 12px;
+        text-transform: uppercase
+    }
+}
+
+@media (min-width: 426px) and (max-width: 1024px){
+    
+    .kasa-header{
+    margin: 20px 20px 0 20px;
+}
+
+    .kasa-logo{
+        width: 150px;
+    }
+
+    .kasa-accueil{
+        margin: 0 10px;
+        font-size: 16px;
+        text-transform: uppercase
+    }
+
+    .kasa-propos{
+        font-size: 16px;
         text-transform: uppercase
     }
 }

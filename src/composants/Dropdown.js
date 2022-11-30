@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Dropdown.css";
-import Fleche from "../asset/Fleche.png";
+import Fleche from "../asset/fleche.png";
 
 
 function Dropdown({titre, description}) {

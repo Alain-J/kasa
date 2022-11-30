@@ -51,7 +51,7 @@ color: #FFFFFF;
 
 
 
-@media screen and (max-width: 376px) {
+@media (min-width: 320px) and (max-width: 426px) {
     .carrousel {
         height: 255px;
         margin-bottom: 15px;

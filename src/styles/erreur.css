@@ -23,7 +23,7 @@
     color: #FF6060;
 }
 
-@media screen and (max-width: 376px)
+@media (min-width: 320px) and (max-width: 426px)
 {
     .page404{
         font-size: 96px;

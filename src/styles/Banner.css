@@ -32,7 +32,7 @@
   
 }
 
-@media screen and (max-width: 376px){
+@media (min-width: 320px) and (max-width: 426px){
     .banner-home{
       height: 111px;
     }
@@ -53,4 +53,9 @@
       width: 193px;
     }
 
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+
+  
 }
